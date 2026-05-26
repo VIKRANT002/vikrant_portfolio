@@ -1,0 +1,144 @@
+<!-- FILE: projects.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projects</title>
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:#0f0f0f;
+  color:white;
+}
+
+.projects{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:60px 10%;
+}
+
+.container{
+  width:100%;
+  text-align:center;
+}
+
+.container h1{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.container span{
+  color:#f5b041;
+}
+
+.subtitle{
+  color:#cfcfcf;
+  margin-bottom:60px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:30px;
+}
+
+.card{
+  background:#1a1a1a;
+  padding:40px 30px;
+  border-radius:20px;
+  border:1px solid #333;
+}
+
+.card h2{
+  font-size:35px;
+  margin-bottom:20px;
+}
+
+.card p{
+  color:#cfcfcf;
+  line-height:1.7;
+  margin-bottom:30px;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 28px;
+  text-decoration:none;
+  background:#f5b041;
+  color:black;
+  border-radius:30px;
+  font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="projects">
+
+<div class="container">
+
+<h1>
+My <span>Projects</span>
+</h1>
+
+<p class="subtitle">
+Explore my creative categories
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>Graphic Design</h2>
+
+<p>
+Branding, posters, social media creatives,
+and visual identity projects.
+</p>
+
+<a href="graphic-design.html" class="btn">
+View Graphic Projects
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>3D Design</h2>
+
+<p>
+Product rendering, interior visualization,
+and realistic 3D modeling projects.
+</p>
+
+<a href="3d.html" class="btn">
+  View 3D Projects
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
